@@ -1,0 +1,12 @@
+{
+  "name": "run-pilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny public fixture for Gateweave's runner pilot (WEB-84).",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test",
+    "check:slow": "node scripts/slow-check.mjs"
+  }
+}
